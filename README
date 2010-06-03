@@ -1,4 +1,5 @@
-The test case can be run with script/cucumber features/ssl.feature 
+The test case can be run with script/cucumber features/ssl.feature
+A before_filter in ApplicationController prints out details about every request, so you can observe Capybara (or Rack::Test) losing the HTTPS protocol once it followed the redirect from ssl_requirement.
 
 The issue (http://github.com/jnicklas/capybara/issues#issue/85) is this:
 
