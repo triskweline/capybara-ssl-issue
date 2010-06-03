@@ -1,0 +1,419 @@
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:39:13) [GET]
+
+ActionView::MissingTemplate (Missing template demo/without_ssl.erb in view path app/views):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:40:44) [GET]
+Rendering demo/without_ssl
+Completed in 187ms (View: 185, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:46) [GET]
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 5ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:52) [GET]
+Rendering demo/with_ssl
+Completed in 7ms (View: 4, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:40:55) [GET]
+Redirected to http://capybara-ssl.hanna/without_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:40:55) [GET]
+Rendering demo/without_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:56) [GET]
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:56) [GET]
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:40:56) [GET]
+Redirected to http://capybara-ssl.hanna/without_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:40:56) [GET]
+Rendering demo/without_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:57) [GET]
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:40:57) [GET]
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:46:18) [GET]
+  Parameters: {"method"=>:put}
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:46:19) [GET]
+  Parameters: {"method"=>:put}
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:46:20) [GET]
+  Parameters: {"method"=>:put}
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:46:24) [GET]
+Redirected to http://capybara-ssl.hanna/without_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:46:24) [GET]
+Rendering demo/without_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:46:25) [GET]
+  Parameters: {"method"=>:put}
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:46:25) [GET]
+  Parameters: {"method"=>:put}
+Rendering demo/with_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/with_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:46:26) [GET]
+Redirected to http://capybara-ssl.hanna/without_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [https://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:46:26) [GET]
+Rendering demo/without_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:46:49) [GET]
+Rendering demo/without_ssl
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 10:46:50) [GET]
+
+ActionController::MethodNotAllowed (Only put requests are allowed.):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (28.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:48:01) [GET]
+Rendering demo/without_ssl
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:48:03) [PUT]
+  Parameters: {"commit"=>"Submit to action with SSL", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 10:48:03) [GET]
+
+ActionController::MethodNotAllowed (Only put requests are allowed.):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (66.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:48:12) [GET]
+Rendering demo/without_ssl
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 10:48:13) [POST]
+  Parameters: {"commit"=>"Submit to action with SSL", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+
+ActionController::MethodNotAllowed (Only put requests are allowed.):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing DemoController#without_ssl (for 127.0.0.1 at 2010-06-03 10:48:47) [GET]
+Rendering demo/without_ssl
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://capybara-ssl.hanna/without_ssl]
+
+
+Processing DemoController#with_ssl (for 127.0.0.1 at 2010-06-03 10:48:52) [PUT]
+  Parameters: {"commit"=>"Submit to action with SSL", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Redirected to https://capybara-ssl.hanna/with_ssl
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/with_ssl]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 10:48:52) [GET]
+
+ActionController::MethodNotAllowed (Only put requests are allowed.):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (25.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 10:59:33) [GET]
+Rendering demo/form
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form_target (for 127.0.0.1 at 2010-06-03 10:59:35) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Rendering demo/form_target
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://capybara-ssl.hanna/form_target]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 10:59:36) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 10:59:46) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 10:59:54) [GET]
+Redirected to https://capybara-ssl.hanna/form
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 10:59:54) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form_target (for 127.0.0.1 at 2010-06-03 11:00:15) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Rendering demo/form_target
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/form_target]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:02:20) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:02:21) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:02:23) [GET]
+Redirected to https://capybara-ssl.hanna/form
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:02:23) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form_target (for 127.0.0.1 at 2010-06-03 11:02:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Rendering demo/form_target
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/form_target]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 11:07:21) [GET]
+
+ActionController::MethodNotAllowed (Only post requests are allowed.):
+  passenger (2.2.11) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.11) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:418:in `start_request_handler'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:358:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:354:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.11) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.11) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (75.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:07:29) [GET]
+Redirected to https://capybara-ssl.hanna/form
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:07:29) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
+
+
+Processing DemoController#form_target (for 127.0.0.1 at 2010-06-03 11:07:31) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"QqkL3O7b3JejWABhjTaJHmCzlNd4DeAfjirkPqSVb9I="}
+Rendering demo/form_target
+Completed in 3ms (View: 1, DB: 0) | 200 OK [https://capybara-ssl.hanna/form_target]
+
+
+Processing DemoController#form (for 127.0.0.1 at 2010-06-03 11:07:32) [GET]
+Rendering demo/form
+Completed in 4ms (View: 2, DB: 0) | 200 OK [https://capybara-ssl.hanna/form]
